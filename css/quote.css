@@ -1,0 +1,95 @@
+input.quoteyn {
+    width: 25px;
+}
+
+#mainContent thead,
+tbody {
+    display: block;
+}
+
+#mainContent tbody {
+    height: 300px;
+    overflow-y: auto;
+}
+
+#detailContent thead,
+tbody {
+    display: block;
+}
+
+#detailContent tbody {
+    height: 300px;
+    overflow-y: auto;
+}
+
+/* 列印估價單表格設定 */
+
+#printquote {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#printquote tr td {
+    height: 60px;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+#printquote tr td:first-child {
+    width: 20px;
+}
+
+#printquote tr td:nth-child(2) {
+    width: 50px;
+}
+
+#printquote tr td:nth-child(3) {
+    width: 100px;
+}
+
+#printquote tr td:nth-child(4) {
+    width: 200px;
+}
+
+#printquote tr td:nth-child(5) {
+    width: 60px;
+}
+
+#printquote tr td:nth-child(6) {
+    width: 60px;
+    text-align: center;
+}
+
+#printquote tr td:nth-child(7) {
+    width: 30px;
+    text-align: center;
+}
+
+#printquote tr td:nth-child(8) {
+    width: 30px;
+    text-align: center;
+}
+
+#printquote tr td:nth-child(9) {
+    width: 70px;
+    text-align: right;
+}
+
+#printquote tr td:nth-child(10) {
+    width: 80px;
+    text-align: right;
+}
+
+#toplong {
+    height: 150px;
+}
+
+#smalltotal {
+    height: 80px;
+    font-size: 16px;
+}
+
+.ui-dialog {
+    z-index: 1000 !important;
+}

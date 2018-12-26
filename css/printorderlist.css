@@ -1,0 +1,86 @@
+#searchQuote {
+    width: 700px;
+}
+
+#mainContent {
+    width: 700px;
+    float: left;
+}
+
+#creatOrder {
+    width: 300px;
+    float: right;
+    margin-right: 250px;
+    margin-top: 200px;
+}
+
+#printOrderpur {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#printOrderpur tr td {
+    height: 60px;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+
+#printOrderpur tr td:first-child {
+    width: 20px;
+}
+
+#printOrderpur tr td:nth-child(2) {
+    width: 50px;
+}
+
+#printOrderpur tr td:nth-child(3) {
+    width: 100px;
+}
+
+#printOrderpur tr td:nth-child(4) {
+    width: 200px;
+}
+
+#printOrderpur tr td:nth-child(5) {
+    width: 20px;
+}
+
+#printOrderpur tr td:nth-child(6) {
+    width: 60px;
+    text-align: center;
+}
+
+#printOrderpur tr td:nth-child(7) {
+    width: 30px;
+    text-align: center;
+}
+
+#printOrderpur tr td:nth-child(8) {
+    width: 30px;
+    text-align: center;
+}
+
+#printOrderpur tr td:nth-child(9) {
+    width: 70px;
+    text-align: right;
+}
+
+#printOrderpur tr td:nth-child(10) {
+    width: 80px;
+    text-align: right;
+}
+
+#toplong {
+    height: 150px;
+}
+
+#smalltotal {
+    height: 80px;
+    font-size: 16px;
+}
+
+.table.orderEdite1 thead td:first-child {
+    width: 40px;
+
+}
